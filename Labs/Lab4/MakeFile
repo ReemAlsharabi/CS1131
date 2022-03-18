@@ -1,0 +1,6 @@
+CC = g++
+CFLAGS = -Wall -g
+Q1 : Q1.o
+	$(CC) $(CFLAGS) -o Q1 Q1.o
+Q1.o: Q1.cc
+	$(CC) $(CFLAGS) -c Q1.cc
