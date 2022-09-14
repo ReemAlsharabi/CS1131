@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     list mylist;
-    int length;
+    int myLength;
     mylist.setLength(1000);
-    mylist.length = mylist.getLength();
+    myLength = mylist.getLength();
     mylist.insert(1);
     mylist.insert(2);
     mylist.search(6);
